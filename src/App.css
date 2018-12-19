@@ -4,20 +4,32 @@ html {
     background-image: url('./images/leafFrame.png');
     background-size: 100vw 100vh;
     background-position: fixed;
+    background-repeat: no-repeat;
 }
 .App {
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: white;
+    height: 100vh;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 h1 {
     font-size: 9rem;
     text-shadow: 8px 8px 8px rgba(59, 185, 114, 0.728);
     font-family: 'Press Start 2P', cursive;
+    margin: auto;
 }
 .nav {
     display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
 }
 .btn {
     margin: 4vw;
