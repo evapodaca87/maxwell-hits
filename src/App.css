@@ -15,22 +15,25 @@ html {
     justify-content: center;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 h1 {
     font-size: 9rem;
-    text-shadow: 8px 8px 8px rgba(59, 185, 114, 0.728);
+    text-shadow: 8px 8px 2px rgba(145, 14, 36, 0.728), 10px 10px 4px rgb(238, 232, 232);
     font-family: 'Press Start 2P', cursive;
     margin: auto;
+    width: auto;
 }
 .nav {
     display: flex;
     flex-direction: row;
-    width: auto;
     justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 4px 5px rgba(148, 13, 13);
 }
 .btn {
     margin: 4vw;
+    color: white;
+}
+a {
+    text-decoration: none;
 }

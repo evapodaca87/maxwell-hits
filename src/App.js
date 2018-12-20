@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './Component/Home';
+import Music from './Component/Music';
+import Contact from './Component/Contact';
 
 class App extends Component {
     render() {
         return (
-            <div className='App'>
-                <div className='container'>
-                    <h1>Maxwell Hits</h1>
-                    <div className='nav'>
-                        <h2 className='btn'>Music</h2>
-                        <h2 className='btn'>Contact</h2>
-                    </div>
+            <Router>
+                <div className='App'>
+                    <Switch>
+                        <Route exact path='/' component={Home} />
+                        <Route exact path='/music' component={Music} />
+                        <Route exact path='/contact' component={Contact} />
+                    </Switch>
                 </div>
-            </div>
+            </Router>
         );
     }
 }
