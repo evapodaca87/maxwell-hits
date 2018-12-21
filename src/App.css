@@ -72,3 +72,17 @@ a {
 .space{
     
 }
+.links{
+    width:75vw;
+    
+}
+.contactLinks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.link-badge {
+    height: 100px;
+    padding: 10px;
+}
