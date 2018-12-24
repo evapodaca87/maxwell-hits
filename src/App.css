@@ -127,4 +127,7 @@ p{
         font-size: .7rem;
         padding-top: 4vh;
     }
+    .link-badge {
+        height: 80px;
+    }
   }
