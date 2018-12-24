@@ -86,6 +86,26 @@ a {
     height: 100px;
     padding: 10px;
 }
+.songs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.song{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+p{
+    margin: auto;
+    padding-left: 5vw;
+}
+.songImage{
+    height: 14vh;
+    border-radius: 5%;
+}
 @media only screen and (max-width: 600px) {
     h1 {
       font-size: 4rem;
