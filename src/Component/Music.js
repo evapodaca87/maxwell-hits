@@ -8,7 +8,7 @@ import meanPic from '../images/mean.png';
 import moonPic from '../images/moon.png';
 import noBrakesPic from '../images/noBrakes.png';
 import wcwPic from '../images/wcw.png';
-const { Howl, Howler } = require('howler');
+const { Howl } = require('howler');
 
 var bonusSong = new Howl({
     src: [ '/Music/bonus.mp3' ]
