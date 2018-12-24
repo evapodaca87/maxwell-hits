@@ -1,5 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+const {Howl, Howler} = require('howler');
+
+var sound = new Howl({
+    src: ['sound.mp3']
+  });
+  
+  sound.play();
 
 const Music = () => (
     <div className='music'>
