@@ -49,6 +49,10 @@ a {
     font-family: 'Press Start 2P', cursive;
     text-shadow: 4px 4px 5px rgba(148, 13, 13);
 }
+.table{
+    display: flex;
+    flex-direction: row;
+}
 .contact{
     display: flex;
     flex-direction: column;
@@ -86,28 +90,41 @@ a {
     height: 100px;
     padding: 10px;
 }
-.songs{
+.images{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    padding-top:5vh;
 }
-.song{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    justify-items: center;
+.names {
+    padding-top: 5vh;
+}
+.play {
+    padding-top: 5vh;
+}
+.pause {
+    padding-top: 5vh;
+}
+.stop {
+    padding-top: 5vh;
 }
 p{
     margin: auto;
     padding-left: 5vw;
+    padding-bottom:4vh;
+    padding-top:5vh;
 }
 .songImage{
-    height: 14vh;
+    height: 10vh;
     border-radius: 5%;
+    margin: auto;
+    box-shadow: 4px 4px 5px rgb(63, 62, 62);
 }
 @media only screen and (max-width: 600px) {
     h1 {
       font-size: 4rem;
+    }
+    .names p {
+        font-size: .7rem;
+        padding-top: 4vh;
     }
   }
