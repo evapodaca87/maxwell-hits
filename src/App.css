@@ -100,12 +100,33 @@ a {
 }
 .play {
     padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+.playButton{
+    height: 8vh;
+    padding-bottom:2.1vh;
+    padding-top:1vh;
+}
+.stopButton{
+    height: 8vh;
+    padding-bottom:2.1vh;
+    padding-top:1vh;
+}
+.pauseButton{
+    height: 8vh;
+    padding-bottom:2.1vh;
+    padding-top:1vh;
 }
 .pause {
     padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
 }
 .stop {
     padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
 }
 p{
     margin: auto;
@@ -129,5 +150,25 @@ p{
     }
     .link-badge {
         height: 80px;
+    }
+    .playButton{
+        height: 6vh;
+        padding-bottom:2.5vh;
+        padding-top:2.5vh;
+    }
+    .stopButton{
+        height: 6vh;
+        padding-bottom:2.5vh;
+        padding-top:2.5vh;
+    }
+    .pauseButton{
+        height: 6vh;
+        padding-bottom:2.5vh;
+        padding-top:2.5vh;
+    }
+    .table {
+        display: flex;
+        width: 90%;
+        align-self: center;
     }
   }

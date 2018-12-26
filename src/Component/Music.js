@@ -8,6 +8,9 @@ import meanPic from '../images/mean.png';
 import moonPic from '../images/moon.png';
 import noBrakesPic from '../images/noBrakes.png';
 import wcwPic from '../images/wcw.png';
+import playPic from '../Logos/play.png';
+import stopPic from '../Logos/stop1.png';
+import pausePic from '../Logos/pause.png';
 const { Howl } = require('howler');
 
 var bonusSong = new Howl({
@@ -156,34 +159,34 @@ const Music = () => (
                 <p>Your WCW never saved your number </p>
             </div>
             <div className='play'>
-                <p onClick={bonus}>Play </p>
-                <p onClick={nobrakes}>Play </p>
-                <p onClick={byTheWay}>Play </p>
-                <p onClick={mooncruise}>Play </p>
-                <p onClick={disillusioned}>Play </p>
-                <p onClick={mean2me}>Play </p>
-                <p onClick={giveUup}>Play </p>
-                <p onClick={wcw}>Play </p>
+                <img src={playPic} className="playButton" onClick={bonus}></img>
+                <img src={playPic} className="playButton" onClick={nobrakes}></img>
+                <img src={playPic} className="playButton" onClick={byTheWay}></img>
+                <img src={playPic} className="playButton" onClick={mooncruise}></img>
+                <img src={playPic} className="playButton" onClick={disillusioned}></img>
+                <img src={playPic} className="playButton" onClick={mean2me}></img>
+                <img src={playPic} className="playButton" onClick={giveUup}></img>
+                <img src={playPic} className="playButton" onClick={wcw}></img>
             </div>
             <div className='pause'>
-                <p onClick={pause}>Pause </p>
-                <p onClick={pause}>Pause </p>
-                <p onClick={pause}>Pause </p>
-                <p onClick={pause}>Pause </p>
-                <p onClick={pause}>Pause </p>
-                <p onClick={pause}>Pause </p>
-                <p onClick={pause}>Pause </p>
-                <p onClick={pause}>Pause </p>
+                <img src={pausePic} className="pauseButton" onClick={pause}></img>
+                <img src={pausePic} className="pauseButton" onClick={pause}></img>
+                <img src={pausePic} className="pauseButton" onClick={pause}></img>
+                <img src={pausePic} className="pauseButton" onClick={pause}></img>
+                <img src={pausePic} className="pauseButton" onClick={pause}></img>
+                <img src={pausePic} className="pauseButton" onClick={pause}></img>
+                <img src={pausePic} className="pauseButton" onClick={pause}></img>
+                <img src={pausePic} className="pauseButton" onClick={pause}></img>
             </div>
             <div className='stop'>
-                <p onClick={stop}>Stop </p>
-                <p onClick={stop}>Stop </p>
-                <p onClick={stop}>Stop </p>
-                <p onClick={stop}>Stop </p>
-                <p onClick={stop}>Stop </p>
-                <p onClick={stop}>Stop </p>
-                <p onClick={stop}>Stop </p>
-                <p onClick={stop}>Stop </p>
+                <img src={stopPic} className="stopButton" onClick={stop}></img>
+                <img src={stopPic} className="stopButton" onClick={stop}></img>
+                <img src={stopPic} className="stopButton" onClick={stop}></img>
+                <img src={stopPic} className="stopButton" onClick={stop}></img>
+                <img src={stopPic} className="stopButton" onClick={stop}></img>
+                <img src={stopPic} className="stopButton" onClick={stop}></img>
+                <img src={stopPic} className="stopButton" onClick={stop}></img>
+                <img src={stopPic} className="stopButton" onClick={stop}></img>
             </div>
         </div>
         <div className='foot'>
