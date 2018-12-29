@@ -145,8 +145,8 @@ const Music = () => (
                 <img className='songImage' src={moonPic} alt='fireSpot' />
                 <img className='songImage' src={disillusionedPic} alt='fireSpot' />
                 <img className='songImage' src={meanPic} alt='fireSpot' />
-                <img className='songImage' src={giveUupPic} alt='fireSpot' />
                 <img className='songImage' src={wcwPic} alt='fireSpot' />
+                <img className='songImage' src={giveUupPic} alt='fireSpot' />
             </div>
             <div className='names'>
                 <p>Bonus </p>
@@ -155,8 +155,8 @@ const Music = () => (
                 <p>moon'n & cruis'n</p>
                 <p>d i s i l l u s i o n e d</p>
                 <p>StayLoose - mean 2 me remix</p>
-                <p>give you up</p>
                 <p>Your WCW never saved your number </p>
+                <p>give you up</p>
             </div>
             <div className='play'>
                 <img src={playPic} className="playButton" onClick={bonus}></img>
@@ -165,8 +165,8 @@ const Music = () => (
                 <img src={playPic} className="playButton" onClick={mooncruise}></img>
                 <img src={playPic} className="playButton" onClick={disillusioned}></img>
                 <img src={playPic} className="playButton" onClick={mean2me}></img>
-                <img src={playPic} className="playButton" onClick={giveUup}></img>
                 <img src={playPic} className="playButton" onClick={wcw}></img>
+                <img src={playPic} className="playButton" onClick={giveUup}></img>
             </div>
             <div className='pause'>
                 <img src={pausePic} className="pauseButton" onClick={pause}></img>
